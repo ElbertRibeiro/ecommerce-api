@@ -50,6 +50,11 @@
             <artifactId>spring-kafka</artifactId>
             <version>3.0.7</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-streams</artifactId>
+            <version>${spring.boot.version}</version>
+        </dependency>
     </dependencies>
 
 </project>
