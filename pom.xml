@@ -9,6 +9,7 @@
     <modules>
         <module>payment-api</module>
         <module>checkout-api</module>
+        <module>checkout-frontend</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
