@@ -4,9 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.elbertribeiro</groupId>
     <artifactId>ecommerce</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>${project.artifactId}</name>
     <modules>
+        <module>ecommerce-core</module>
         <module>payment-api</module>
         <module>checkout-api</module>
         <module>checkout-frontend</module>
@@ -14,9 +15,9 @@
     <packaging>pom</packaging>
     <properties>
         <java.version>17</java.version>
-        <spring.boot.version>2.7.12</spring.boot.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring.boot.version>3.1.0</spring.boot.version>
     </properties>
 </project>
