@@ -1,4 +1,4 @@
-package com.elbertribeiro.service;
+package com.elbertribeiro.controller;
 
 import com.elbertribeiro.checkout.CheckoutRequest;
 import com.elbertribeiro.checkout.CheckoutService;
