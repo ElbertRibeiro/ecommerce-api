@@ -15,6 +15,6 @@ public class CheckoutController {
 
     @PostMapping
     public String checkPayment(@RequestBody CheckoutRequest checkoutRequest) {
-        return service.teste(checkoutRequest.getFirstName());
+        return service.teste(checkoutRequest);
     }
 }
