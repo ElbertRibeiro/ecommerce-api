@@ -5,6 +5,8 @@ spring boot e orientado a eventos.
 
 # Arquitetura
 
-Este projeto segue a seguinte arquitetura 
+Este projeto segue a seguinte arquitetura
 
-![Arquitetura](.github\image\arq.png)
+<p align="center">
+    <img alt="asd" src=".github/image/arq.png">
+</p>
