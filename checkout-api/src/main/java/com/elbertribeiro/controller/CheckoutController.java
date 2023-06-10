@@ -1,14 +1,13 @@
 package com.elbertribeiro.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.elbertribeiro.checkout.CheckoutRequest;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("v1/checkout")
 public class CheckoutController {
-    @GetMapping
-    public String hello() {
-        return "Hello";
+    @PostMapping
+    public String checkPayment(@RequestBody CheckoutRequest checkoutRequest) {
+        return checkoutRequest.getFirstName();
     }
 }
