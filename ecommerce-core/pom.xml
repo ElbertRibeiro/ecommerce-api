@@ -48,12 +48,12 @@
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
-            <version>3.0.7</version>
+            <version>${spring.boot.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-streams</artifactId>
-            <version>${spring.boot.version}</version>
+            <version>3.1.0</version>
         </dependency>
     </dependencies>
 
