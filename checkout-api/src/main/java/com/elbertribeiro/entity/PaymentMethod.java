@@ -1,4 +1,4 @@
-package com.elbertribeiro.payment;
+package com.elbertribeiro.entity;
 
 public enum PaymentMethod {
     PIX, CREDIT, DEBIT

@@ -1,7 +1,7 @@
 package com.elbertribeiro.controller;
 
-import com.elbertribeiro.checkout.CheckoutRequest;
-import com.elbertribeiro.checkout.CheckoutService;
+import com.elbertribeiro.dto.CheckoutRequest;
+import com.elbertribeiro.service.CheckoutService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

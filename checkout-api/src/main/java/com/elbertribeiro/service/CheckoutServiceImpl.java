@@ -1,5 +1,6 @@
-package com.elbertribeiro.checkout;
+package com.elbertribeiro.service;
 
+import com.elbertribeiro.dto.CheckoutRequest;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 

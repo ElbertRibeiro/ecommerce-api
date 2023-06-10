@@ -1,6 +1,6 @@
-package com.elbertribeiro.checkout;
+package com.elbertribeiro.dto;
 
-import com.elbertribeiro.payment.PaymentMethod;
+import com.elbertribeiro.entity.PaymentMethod;
 
 import java.util.Objects;
 
