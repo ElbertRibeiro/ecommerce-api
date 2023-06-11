@@ -1,4 +1,4 @@
-package com.elbertribeiro.service;
+package com.elbertribeiro.consumer;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.slf4j.Logger;
@@ -7,8 +7,8 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
 @Service
-public class PaymentService {
-    private static final Logger logger = LoggerFactory.getLogger(PaymentService.class);
+public class PaymentConsumer {
+    private static final Logger logger = LoggerFactory.getLogger(PaymentConsumer.class);
     @KafkaListener(topics = "meu-topico", groupId = "group_id")
     public void consume(ConsumerRecord<String, String> payload) {
         logger.info("Tópico: {}", "meu-topico");
